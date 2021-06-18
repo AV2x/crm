@@ -19,7 +19,8 @@ class UserController extends Controller
         view()->composer('crm.layouts.link', function ($view){
             $view->with(['active_name' => 'users']);
         });
-        $this->storage = new StorageHelper('avatar', $request->file('file'));
+        $product_id = $request->route('user');
+        $this->storage = new StorageHelper('avatar', $request->file('file'), User::find($product_id));
     }
 
     /**
@@ -53,7 +54,7 @@ class UserController extends Controller
     {
 
 
-       $name = $this->storage->model(new User())->image()->saveImage();
+       $name = $this->storage->saveImage();
         User::create([
             'name' => $request->input('name'),
             'email' => $request->input('email'),
@@ -107,7 +108,7 @@ class UserController extends Controller
             $data['password'] = Hash::make($data['password']);
         }
 
-        $data['avatar'] = $this->storage->model(User::find($id))->image()->saveImage();
+        $data['avatar'] = $this->storage->saveImage();
         User::where('id', $id)->update($data);
 
         return response()->redirectTo('/user');

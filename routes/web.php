@@ -31,7 +31,8 @@ Route::namespace('App\Http\Controllers')->group(function (){
             [
                 '/user' => 'UserController',
                 '/category' => 'CategoryController',
-                '/product' => 'ProductController'
+                '/product' => 'ProductController',
+                '/order' => 'OrderController'
             ]
         );
     });

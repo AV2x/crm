@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a528584c-0550-4a33-8d94-1d8fe36e7ed6" name="Default Changelist" comment="" />
+    <list default="true" id="a528584c-0550-4a33-8d94-1d8fe36e7ed6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/crm/orders/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/crm/orders/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/crm/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/crm/layouts/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +35,14 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -159,25 +192,39 @@
       <workItem from="1622214852682" duration="68000" />
       <workItem from="1622214922484" duration="3293000" />
       <workItem from="1622539124519" duration="209000" />
-      <workItem from="1623063420009" duration="6876000" />
+      <workItem from="1623063420009" duration="8849000" />
+      <workItem from="1623324378034" duration="640000" />
+      <workItem from="1623927028105" duration="10212000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="801" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.inPresentationMode" timestamp="1621528879963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="801" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.inPresentationMode/3840.538.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1621528879963" />
-    <state x="1011" y="469" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1623067567767">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1623933179964">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="749" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog.inPresentationMode" timestamp="1621710868396">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="749" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog.inPresentationMode/3840.538.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1621710868396" />
+    <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400/3840.7.1536.824@0.0.2560.1400" timestamp="1623933179964" />
     <state x="1011" y="469" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1440/3840.7.1536.864@0.0.2560.1440" timestamp="1623067567767" />
     <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/3840.538.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1621708883814" />
     <state x="1081" y="456" key="FileChooserDialogImpl" timestamp="1622463917376">
@@ -185,13 +232,14 @@
     </state>
     <state x="1081" y="456" key="FileChooserDialogImpl/3840.538.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1621291807928" />
     <state x="1081" y="456" key="FileChooserDialogImpl/3840.7.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1622463917376" />
-    <state x="1117" y="642" key="NewPhpFileDialog" timestamp="1623067534003">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1623931895376">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="968" y="556" key="NewPhpFileDialog.inPresentationMode" timestamp="1621709158345">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="968" y="556" key="NewPhpFileDialog.inPresentationMode/3840.538.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1621709158345" />
+    <state x="1117" y="624" key="NewPhpFileDialog/0.0.2560.1400/3840.7.1536.824@0.0.2560.1400" timestamp="1623931895376" />
     <state x="1117" y="642" key="NewPhpFileDialog/0.0.2560.1440/3840.7.1536.864@0.0.2560.1440" timestamp="1623067534003" />
     <state x="1117" y="624" key="NewPhpFileDialog/3840.538.1536.816/0.0.2560.1400@0.0.2560.1400" timestamp="1621703500955" />
     <state x="1" y="0" width="1902" height="1387" key="dock-window-1" timestamp="1621354654357">
